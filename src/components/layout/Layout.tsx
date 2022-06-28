@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import Navigation from "./navigation";
+import Header from "./header";
 
 type Props = {
   children: ReactNode;
@@ -8,7 +8,7 @@ type Props = {
 const Layout = ({ children }: Props) => {
   return (
     <main>
-      <Navigation />
+      <Header />
       {children}
     </main>
   );
