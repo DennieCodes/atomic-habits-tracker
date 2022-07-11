@@ -1,6 +1,5 @@
-#NextJS testing, linting, typescript and CI/CD repo w/ Github Actions
+#Atomic Habits Tracker
 
-Here is a repo of a boilerplate setup for starting a NextJS Project with EsLint, testing via React-Testing-Library and Jest and Typescript with continuous integration and continuous development with Github Actions.
-
-Note: Due to conflicts with Eslint and Next in CI pipeline support for older versions of Node [12.x, 14.x] had to be removed in the .yml file
-so only Node version 16.x is set
+One of my favorite books is Atomic Habits by James Clear. I have been utilizing different strategies from this book and it has helped me
+to organize my activities and work towards my goals. I currently use pencil and paper to track my habits but I believe that a well designed
+app would be very suitable to handle this activity instead.

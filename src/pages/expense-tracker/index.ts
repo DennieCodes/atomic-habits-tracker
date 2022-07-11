@@ -1,3 +1,3 @@
-import ExpenseTracker from "./ExpenseTracker";
+import HabitTracker from "./HabitTracker";
 
-export default ExpenseTracker;
+export default HabitTracker;
