@@ -1,9 +1,13 @@
+import NewHabitForm from "../../components/habitTracker/newHabitForm";
+import HabitList from "../../components/habitTracker/habitList";
+
 import styles from "./habitTracker.module.scss";
 
 function HabitTracker() {
   return (
     <section className={styles.container}>
-      <h2>Habit Expenses</h2>
+      <NewHabitForm />
+      <HabitList />
     </section>
   );
 }
