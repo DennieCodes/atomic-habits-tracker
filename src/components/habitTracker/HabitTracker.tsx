@@ -1,9 +1,11 @@
-import NewHabitForm from "../../components/habitTracker/newHabitForm";
-import HabitList from "../../components/habitTracker/habitList";
+import { ReactElement } from "react";
+
+import NewHabitForm from "../habitTracker/newHabitForm";
+import HabitList from "../habitTracker/habitList";
 
 import styles from "./habitTracker.module.scss";
 
-function HabitTracker() {
+function HabitTracker(): ReactElement {
   return (
     <section className={styles.container}>
       <NewHabitForm />
